@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Site of Draskovics István</title>
+    <link rel="stylesheet" href="./main.css" />
+    <script
+      src="https://kit.fontawesome.com/d908497d90.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header class="main-header">
+      <div class="dropdown"></div>
+      <div class="dropdown-transparent"></div>
+      <div class="dropdown-logo">
+        <span class="dropdown-logo__first">D</span>
+        <span class="dropdown-logo__second">D</span>
+      </div>
+
+      <nav class="main-nav">
+        <input type="checkbox" id="check" />
+        <label for="check" class="main-nav__hamburger">
+          <i class="fa-solid fa-bars fa-2xl" style="color: #dcff7a"></i>
+        </label>
+        <ul class="main-nav__items">
+          <li class="main-nav__item">
+            <a href="index.html">Home</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="#about-section">About me</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="./01_resume/index.html">My Resume</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="#slideshow-section">My Artworks</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero-section">
+        <div class="hero-image">
+          <img src="./images/Én.png" alt="Picture of Draskovics István" />
+        </div>
+        <div class="hero-text">
+          <h1 class="hero-text__h1">
+            Draskovics <br />
+            István
+          </h1>
+          <h2 class="hero-text__h2">
+            Draskovics <br />
+            István
+          </h2>
+        </div>
+        <div class="circle-animation"></div>
+      </section>
+
+      <section id="about-section">
+        <div class="section-heading">
+          <hr class="section-heading__hr-one" />
+          <h2>About me</h2>
+          <hr class="section-heading__hr-two" />
+        </div>
+        <div class="about-section__background"></div>
+        <div class="about-container">
+          <h3>My skills</h3>
+          <ul class="about-items">
+            <li class="about-item">
+              <h4 class="about-item__heading">Procreate design</h4>
+              <p class="about-item__paragraph">
+                From 2019 to 2022, I've been working as a tattooer, which
+                required a lot of practicing in drawing, and creating good
+                looking designs, which suit best for the flow of the human body
+                shapes. For planning, mainly I used procreate, so i became
+                familiar with a lot of features of this software.
+              </p>
+            </li>
+            <li class="about-item">
+              <h4 class="about-item__heading">Drawing - Tattooing</h4>
+              <p class="about-item__paragraph">
+                As I mentioned in the previous paragraph, I used to be a
+                tattooer, as a result, I've learnt drawing on paper, as well as
+                on human skin. Tattooing taught me to be precise, and work
+                calmly under pressure: like being aware of the responsibility of
+                tattooing for example..
+              </p>
+            </li>
+            <li class="about-item">
+              <h4 class="about-item__heading">A little programming...</h4>
+              <p class="about-item__paragraph">
+                In 2023 I've found out, that I want to try my best on a new
+                field, and that is web developing actually. This website is a
+                beginner portfolio piece, which showcases my actual level of
+                HTML and CSS.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <div class="section-heading">
+        <hr class="section-heading__hr-one" />
+        <h2>My Artworks</h2>
+        <hr class="section-heading__hr-two" />
+      </div>
+
+      <section id="slideshow-section">
+        <div class="slideshow-images">
+          <img
+            id="3po"
+            src="./images/3PO.jpg"
+            alt="A colored pencil drawing of 3PO from Star Wars"
+          />
+          <img
+            id="ring"
+            src="./images/Gyűrű.jpg"
+            alt="A colored pencil drawing of the One Ring, from The Lord Of The Rings"
+          />
+          <img
+            id="johnny"
+            src="./images/Johnny Cash.jpg"
+            alt="A ballpoint pen drawing of Johnny Cash, using only blue colored pen"
+          />
+          <img
+            id="morgan"
+            src="./images/Morgan.jpg"
+            alt="A colored pencil drawing of Morgan Freeman"
+          />
+          <img
+            id="terminator"
+            src="./images/Terminator.jpg"
+            alt="A colored pencil drawing of the Terminator"
+          />
+        </div>
+      </section>
+    </main>
+
+    <footer class="main-footer">
+      © Draskovics István. All rights reserved.
+    </footer>
+  </body>
+</html>
